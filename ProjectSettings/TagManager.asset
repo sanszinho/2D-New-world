@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -13,17 +14,17 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Background
+  - Ground
+  - Water
+  - Tree
+  - Coins
+  - Potion
+  - Cloud
+  - Player
+  - Vineyards
+  - Stairs
+  - Stone
   - 
   - 
   - 
@@ -47,6 +48,9 @@ TagManager:
   - name: Ground
     uniqueID: 860694663
     locked: 0
+  - name: Wall
+    uniqueID: 2919534979
+    locked: 0
   - name: Water
     uniqueID: 2231604125
     locked: 0
@@ -62,9 +66,6 @@ TagManager:
   - name: Cloud
     uniqueID: 1135095435
     locked: 0
-  - name: Player
-    uniqueID: 1511820991
-    locked: 0
   - name: Vineyards
     uniqueID: 1941630747
     locked: 0
@@ -73,4 +74,7 @@ TagManager:
     locked: 0
   - name: 'Stone '
     uniqueID: 1433172113
+    locked: 0
+  - name: Player
+    uniqueID: 1511820991
     locked: 0
